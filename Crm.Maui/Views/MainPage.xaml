@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:Crm.Maui.Views"
+             xmlns:models="clr-namespace:Crm.Maui.Models"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="Crm.Maui.Views.MainPage"
+             Title="CRM"
+             x:Name="Page">
+    <ContentPage.BindingContext>
+        <viewmodels:MainViewModel/>
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior
+            EventName="Appearing"
+            Command="{Binding Path=ShowingCommand}"
+            BindingContext="{Binding Source = {x:Reference Page}, Path=BindingContext}"/>
+    </ContentPage.Behaviors>
+
+    <Grid Padding="8">
+        <RefreshView 
+             IsRefreshing="{Binding Path=Refreshing}"
+             Command="{Binding Path=LoadCustomersCommand}">
+            
+            <CollectionView 
+                EmptyView="Aún no se han registrado clientes"
+                ItemsSource="{Binding Path=Customers}"
+                BackgroundColor="Beige">
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="{x:Type models:Customer}">
+                        <Grid RowDefinitions=" auto,auto"
+                              Padding="10">
+                            <Label 
+                                Grid.Row="0"
+                                Text="{Binding Path=FullName}"/>
+                            <Label
+                                Grid.Row="1"
+                                Text="{Binding Path=Email}"
+                                TextColor="DarkGrey"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+
+            </CollectionView>
+        </RefreshView>
+        <Button
+            Text="+"
+            WidthRequest="56"
+            HeightRequest="56"
+            FontSize="24"
+            HorizontalOptions="End"
+            VerticalOptions="End"
+            Margin="16"/>
+        
+    </Grid>
+
+
+</ContentPage>
