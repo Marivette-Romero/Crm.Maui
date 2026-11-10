@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:Crm.Maui.ViewsModels"
+             x:Class="Crm.Maui.Views.CustomerEditPage"
+             Title="Nuevo Contacto">
+
+    <ContentPage.BindingContext>
+        <viewmodels:CustomerEditViewModel/>
+    </ContentPage.BindingContext>
+
+    <Grid
+        Padding="8">
+        
+        <VerticalStackLayout  VerticalOptions="Start">
+            
+            <Label Text="Proporcione el nombre del contacto:"/>
+            <Entry
+                Text="{Binding Path=Cust.FirstName}"
+                Placeholder="ejemp. Mateo"
+                BackgroundColor="WhiteSmoke"
+                Margin="0,0,0,16"/>
+
+            <Label Text="Proporcione los apellidos del contacto:"/>
+            <Entry 
+                 Text="{Binding Path=Cust.LastName}"
+                 Placeholder="ejemp. Peréz"
+                 BackgroundColor="WhiteSmoke"
+                 Margin="0,0,0,16"/>
+            
+            <Label Text="Proporcione el correo electronico del contacto:"/>
+            <Entry
+                 Text="{Binding Path=Cust.Email}"
+                 Placeholder="ejemp: example@mail.com"
+                 BackgroundColor="WhiteSmoke"
+                 Margin="0,0,0,32"/>
+            <Button Text="Guardar" Command="{Binding Path=SaveCommand}"/>
+            
+        </VerticalStackLayout>
+
+    </Grid>
+</ContentPage>
+    
+   <!--Solo visualiza los clientes registrados-->

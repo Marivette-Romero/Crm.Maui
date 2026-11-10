@@ -3,28 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\mariv\\source\\repos\\Crm\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|c:\\users\\mariv\\source\\repos\\crm\\crm.maui\\views\\customereditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|solutionrelative:crm.maui\\views\\customereditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|c:\\users\\mariv\\source\\repos\\crm\\crm.maui\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|solutionrelative:crm.maui\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|c:\\users\\mariv\\source\\repos\\crm\\crm.maui\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|solutionrelative:crm.maui\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|c:\\users\\mariv\\source\\repos\\crm\\crm.maui\\persistence\\crmdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|solutionrelative:crm.maui\\persistence\\crmdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|c:\\users\\mariv\\source\\repos\\crm\\crm.maui\\views\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|solutionrelative:crm.maui\\views\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|c:\\users\\mariv\\source\\repos\\crm\\crm.maui\\viewsmodels\\customereditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|solutionrelative:crm.maui\\viewsmodels\\customereditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|c:\\users\\mariv\\source\\repos\\crm\\crm.maui\\views\\customereditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|solutionrelative:crm.maui\\views\\customereditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|c:\\users\\mariv\\source\\repos\\crm\\crm.maui\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|solutionrelative:crm.maui\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|c:\\users\\mariv\\source\\repos\\crm\\crm.maui\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|solutionrelative:crm.maui\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|c:\\users\\mariv\\source\\repos\\crm\\crm.maui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|solutionrelative:crm.maui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|c:\\users\\mariv\\source\\repos\\crm\\crm.maui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|solutionrelative:crm.maui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|c:\\users\\mariv\\source\\repos\\crm\\crm.maui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|solutionrelative:crm.maui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|c:\\users\\mariv\\source\\repos\\crm\\crm.maui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|solutionrelative:crm.maui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|c:\\users\\mariv\\source\\repos\\crm\\crm.maui\\persistence\\crmdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B5E9A49-F4E6-16D3-9DD7-F2E2A843CF34}|Crm.Maui\\Crm.Maui.csproj|solutionrelative:crm.maui\\persistence\\crmdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,39 +54,52 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Crm.Maui\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\AppShell.xaml",
+              "RelativeToolTip": "Crm.Maui\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-09T17:28:42.395Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Crm.Maui\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\Models\\Customer.cs",
+              "RelativeToolTip": "Crm.Maui\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T16:37:42.849Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerEditViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\ViewsModels\\CustomerEditViewModel.cs",
+              "RelativeDocumentMoniker": "Crm.Maui\\ViewsModels\\CustomerEditViewModel.cs",
+              "ToolTip": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\ViewsModels\\CustomerEditViewModel.cs*",
+              "RelativeToolTip": "Crm.Maui\\ViewsModels\\CustomerEditViewModel.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T16:18:30.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\App.xaml",
-              "RelativeDocumentMoniker": "Crm.Maui\\App.xaml",
-              "ToolTip": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\App.xaml",
-              "RelativeToolTip": "Crm.Maui\\App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-11-04T15:42:10.22Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\Views\\MainPage.xaml",
-              "RelativeDocumentMoniker": "Crm.Maui\\Views\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\Views\\MainPage.xaml",
-              "RelativeToolTip": "Crm.Maui\\Views\\MainPage.xaml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAADYAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-11-03T16:35:12.321Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\Views\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "Crm.Maui\\Views\\MainPage.xaml.cs",
@@ -75,46 +108,97 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-04T15:34:11.298Z",
-              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Crm.Maui\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\App.xaml.cs",
+              "RelativeToolTip": "Crm.Maui\\App.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T17:59:15.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Crm.Maui\\Views\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\Views\\MainPage.xaml",
+              "RelativeToolTip": "Crm.Maui\\Views\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-03T16:35:12.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerEditPage.xaml",
+              "DocumentMoniker": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\Views\\CustomerEditPage.xaml",
+              "RelativeDocumentMoniker": "Crm.Maui\\Views\\CustomerEditPage.xaml",
+              "ToolTip": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\Views\\CustomerEditPage.xaml",
+              "RelativeToolTip": "Crm.Maui\\Views\\CustomerEditPage.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-04T16:48:28.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerEditPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\Views\\CustomerEditPage.xaml.cs",
+              "RelativeDocumentMoniker": "Crm.Maui\\Views\\CustomerEditPage.xaml.cs",
+              "ToolTip": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\Views\\CustomerEditPage.xaml.cs",
+              "RelativeToolTip": "Crm.Maui\\Views\\CustomerEditPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T17:20:53.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "CrmDbContext.cs",
               "DocumentMoniker": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\Persistence\\CrmDbContext.cs",
               "RelativeDocumentMoniker": "Crm.Maui\\Persistence\\CrmDbContext.cs",
               "ToolTip": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\Persistence\\CrmDbContext.cs",
               "RelativeToolTip": "Crm.Maui\\Persistence\\CrmDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-03T17:17:31.432Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\Views\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "Crm.Maui\\Views\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\Views\\MainViewModel.cs",
-              "RelativeToolTip": "Crm.Maui\\Views\\MainViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "Crm.Maui\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\AppShell.xaml.cs",
+              "RelativeToolTip": "Crm.Maui\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T16:57:26.254Z",
+              "WhenOpened": "2026-11-09T17:54:36.18Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "Crm.Maui\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\Models\\Customer.cs",
-              "RelativeToolTip": "Crm.Maui\\Models\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\Views\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "Crm.Maui\\Views\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\mariv\\source\\repos\\Crm\\Crm.Maui\\Views\\MainViewModel.cs*",
+              "RelativeToolTip": "Crm.Maui\\Views\\MainViewModel.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T16:37:42.849Z",
+              "WhenOpened": "2026-11-03T16:57:26.254Z",
               "EditorCaption": ""
             }
           ]

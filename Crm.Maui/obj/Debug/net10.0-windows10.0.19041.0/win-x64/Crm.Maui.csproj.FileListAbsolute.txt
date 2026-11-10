@@ -561,3 +561,4 @@ C:\Users\mariv\source\repos\Crm\Crm.Maui\obj\Debug\net10.0-windows10.0.19041.0\w
 C:\Users\mariv\source\repos\Crm\Crm.Maui\obj\Debug\net10.0-windows10.0.19041.0\win-x64\qualifiers.txt
 C:\Users\mariv\source\repos\Crm\Crm.Maui\obj\Debug\net10.0-windows10.0.19041.0\win-x64\qualifiers.txt.intermediate
 C:\Users\mariv\source\repos\Crm\Crm.Maui\obj\Debug\net10.0-windows10.0.19041.0\win-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Users\mariv\source\repos\Crm\Crm.Maui\obj\Debug\net10.0-windows10.0.19041.0\win-x64\Crm.Maui.sourcelink.json

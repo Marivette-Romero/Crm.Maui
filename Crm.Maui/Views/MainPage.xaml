@@ -34,7 +34,10 @@
                               Padding="10">
                             <Label 
                                 Grid.Row="0"
-                                Text="{Binding Path=FullName}"/>
+                                Text="{Binding Path=FullName}"
+                                TextColor="Black"
+                                FontAttributes="Bold"
+                                />
                             <Label
                                 Grid.Row="1"
                                 Text="{Binding Path=Email}"
@@ -47,6 +50,7 @@
         </RefreshView>
         <Button
             Text="+"
+            Command="{Binding Path=ShowNewCustomerFormCommand}"
             WidthRequest="56"
             HeightRequest="56"
             FontSize="24"

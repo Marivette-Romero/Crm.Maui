@@ -28,5 +28,22 @@ namespace Crm.Maui.Views
         {
             Refreshing = true;  
         }
+
+        [RelayCommand]
+        private async Task ShowNewCustomerFormAsync()
+        {
+            await Shell.Current.GoToAsync(nameof(CustomerEditPage),parameters: new Dictionary<string,object>
+            {
+                {"ParameterRefreshAction",(Func<Customer,Task>) RefreshAddedAsync},
+                {"Item", new Customer() }
+            });
+        }
+
+        //este metodo actualiza el nuevo cliente agregandolo a la colección
+        private Task RefreshAddedAsync (Customer addedCustomer)
+        {
+            Customers.Add(addedCustomer);
+            return Task.CompletedTask;
+        }
     }
 }

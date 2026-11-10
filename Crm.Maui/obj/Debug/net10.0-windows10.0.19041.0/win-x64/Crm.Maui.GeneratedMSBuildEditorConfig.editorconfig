@@ -76,11 +76,11 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/mariv/source/repos/Crm/Crm.Maui/Views/CusromerEditPage.xaml]
+[C:/Users/mariv/source/repos/Crm/Crm.Maui/Views/CustomerEditPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Crm.Maui.Views.CusromerEditPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\CusromerEditPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\CusromerEditPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Crm.Maui.Views.CustomerEditPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CustomerEditPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CustomerEditPage.xaml
 build_metadata.AdditionalFiles.Inflator = SourceGen
 build_metadata.AdditionalFiles.NoWarn = 
 build_metadata.AdditionalFiles.EnableDiagnostics = 

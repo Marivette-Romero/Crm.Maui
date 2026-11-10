@@ -74,22 +74,21 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Views\CustomerEditPage.xaml.cs">
+	    <DependentUpon>CustomerEditPage.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Views\MainPage.xaml.cs">
 	    <DependentUpon>MainPage.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Views\CusromerEditPage.xaml">
+	  <MauiXaml Update="Views\CustomerEditPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\MainPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="ViewsModels\" />
 	</ItemGroup>
 
 </Project>
