@@ -8272,7 +8272,7 @@
         }
       }
     },
-    "net10.0-android/iossimulator-x64": {
+    "net10.0-android/ios-arm64": {
       "CommunityToolkit.Maui/15.0.1": {
         "type": "package",
         "dependencies": {
@@ -18775,7 +18775,7 @@
         }
       }
     },
-    "net10.0-ios/iossimulator-x64": {
+    "net10.0-ios/ios-arm64": {
       "CommunityToolkit.Maui/15.0.1": {
         "type": "package",
         "dependencies": {
@@ -23299,7 +23299,7 @@
         }
       }
     },
-    "net10.0-maccatalyst/iossimulator-x64": {
+    "net10.0-maccatalyst/ios-arm64": {
       "CommunityToolkit.Maui/15.0.1": {
         "type": "package",
         "dependencies": {
@@ -28959,7 +28959,7 @@
         }
       }
     },
-    "net10.0-windows10.0.19041.0/iossimulator-x64": {
+    "net10.0-windows10.0.19041.0/ios-arm64": {
       "CommunityToolkit.Maui/15.0.1": {
         "type": "package",
         "dependencies": {
@@ -39702,7 +39702,7 @@
       "android-x64": {
         "#import": []
       },
-      "iossimulator-x64": {
+      "ios-arm64": {
         "#import": []
       },
       "maccatalyst-x64": {

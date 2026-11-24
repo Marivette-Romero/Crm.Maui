@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:Crm.Maui.ViewsModels"
+             xmlns:models="clr-namespace:Crm.Maui.Models"
+             x:Class="Crm.Maui.Views.CustomerDetailPage"
+             Title="Información del Contacto">
+
+    <ContentPage.BindingContext>
+        <viewmodels:CustomerDetailViewModel/>
+    </ContentPage.BindingContext>
+
+
+    <VerticalStackLayout Padding="16">
+        
+            <Label 
+              Text="Id:"
+            
+            />
+            <Label 
+                Text="{Binding Path=Customer.Id} "
+                Margin="0,0,0,16"
+                Padding="0,6,0,6"
+                TextColor="DarkBlue"
+                FontAttributes="Bold"
+                BackgroundColor="WhiteSmoke"
+            
+            />
+            <Label 
+              Text="Nombre:" 
+            />
+            <Label 
+                  Text="{Binding Path=Customer.FirstName}" 
+                  Margin="0,0,0,16"
+                  Padding="0,6,0,6"
+                  TextColor="DarkBlue"
+                  FontAttributes="Bold"
+                  BackgroundColor="WhiteSmoke"
+            />
+
+            <Label 
+              Text="Apellidos:" 
+            />
+            <Label 
+                  Text="{Binding Path=Customer.LastName}" 
+                  Margin="0,0,0,16"
+                  Padding="0,6,0,6"
+                  TextColor="DarkBlue"
+                  FontAttributes="Bold"
+                  BackgroundColor="WhiteSmoke"
+            />
+
+            <Label 
+              Text="Correo Electronico:"
+            />
+            <Label 
+                  Text="{Binding Path=Customer.Email}" 
+                  Margin="0,0,0,16"
+                  Padding="0,6,0,6"
+                  TextColor="DarkBlue"
+                  FontAttributes="Bold"
+                  BackgroundColor="WhiteSmoke"
+            />
+    </VerticalStackLayout>
+</ContentPage>

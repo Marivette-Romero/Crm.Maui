@@ -1,5 +1,4 @@
 ﻿using Crm.Maui.Persistence;
-using Microsoft.Extensions.DependencyInjection;
 
 namespace Crm.Maui
 {

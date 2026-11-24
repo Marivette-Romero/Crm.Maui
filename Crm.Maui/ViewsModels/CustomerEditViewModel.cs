@@ -2,9 +2,6 @@
 using CommunityToolkit.Mvvm.Input;
 using Crm.Maui.Models;
 using Crm.Maui.Persistence;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Crm.Maui.ViewsModels
 {

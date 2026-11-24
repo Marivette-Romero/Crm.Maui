@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:viewmodels="clr-namespace:Crm.Maui.Views"
+             xmlns:viewmodels="clr-namespace:Crm.Maui.ViewsModels"
              xmlns:models="clr-namespace:Crm.Maui.Models"
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              x:Class="Crm.Maui.Views.MainPage"
              Title="CRM"
              x:Name="Page">
+    
     <ContentPage.BindingContext>
         <viewmodels:MainViewModel/>
     </ContentPage.BindingContext>
@@ -22,28 +23,49 @@
         <RefreshView 
              IsRefreshing="{Binding Path=Refreshing}"
              Command="{Binding Path=LoadCustomersCommand}">
-            
+
             <CollectionView 
                 EmptyView="Aún no se han registrado clientes"
                 ItemsSource="{Binding Path=Customers}"
                 BackgroundColor="Beige">
-
+                
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="{x:Type models:Customer}">
-                        <Grid RowDefinitions=" auto,auto"
-                              Padding="10">
-                            <Label 
-                                Grid.Row="0"
-                                Text="{Binding Path=FullName}"
-                                TextColor="Black"
-                                FontAttributes="Bold"
-                                />
-                            <Label
-                                Grid.Row="1"
-                                Text="{Binding Path=Email}"
-                                TextColor="DarkGrey"/>
-                        </Grid>
+                        
+                      <SwipeView>
+                            <SwipeView.RightItems>
+                                <SwipeItem
+                                    Text="Eliminar"
+                                    BackgroundColor="IndianRed"
+                                    Command="{Binding Path=BindingContext.DeleteCustomerCommand, Source=
+                                    {RelativeSource Mode=FindAncestor,AncestorType={x:Type CollectionView}}}"
+                                    CommandParameter="{Binding}"
+                                    />
+                            </SwipeView.RightItems>
+                        
+                      
+                            <Grid RowDefinitions=" auto,auto" Padding="10">
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding Path=BindingContext.ShowDetailFormsCommand,
+                                        Source={RelativeSource Mode=FindAncestor, AncestorType={x:Type CollectionView}}}"
+                                    CommandParameter="{Binding}"/>
+                                </Grid.GestureRecognizers>
+
+                                 <Label 
+                                  Grid.Row="0"
+                                  Text="{Binding Path=FullName}"
+                                  TextColor="Black"
+                                  FontAttributes="Bold"
+                                  />
+                                  <Label
+                                   Grid.Row="1"
+                                   Text="{Binding Path=Email}"
+                                   TextColor="DarkGrey"/>
+                            </Grid>
+                        </SwipeView>
+
                     </DataTemplate>
+              
                 </CollectionView.ItemTemplate>
 
             </CollectionView>
@@ -57,8 +79,6 @@
             HorizontalOptions="End"
             VerticalOptions="End"
             Margin="16"/>
-        
+
     </Grid>
-
-
 </ContentPage>

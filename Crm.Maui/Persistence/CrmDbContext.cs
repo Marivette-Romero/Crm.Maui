@@ -44,3 +44,4 @@ namespace Crm.Maui.Persistence
         }
     }
 }
+
